@@ -1,7 +1,4 @@
-function myinfo(param1) {
-    alert("Name: Natasha")
-    alert("Height: 5'2")
-    alert("Country: USA");
+function myinfo(name, height, country) {
+    alert(name + height + country);
 }
-
-myinfo();
+myinfo("Natasha ", "5'3 ", "USA");
